@@ -549,6 +549,7 @@ body{
 .footer-social-section{
     display: block;
     align-items: center;
+    margin-right: 93px;
     justify-content: center;
     width: 206px;
     height: 80px;
@@ -594,6 +595,63 @@ body{
     fill: var(--primary-white-color);
 }
 
+.footer-form{
+
+}
+
+.footer-form-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    margin-bottom: 20px;
+}
+
+.footer-form-field{
+   position: relative;
+    
+}
+
+
+.footer-form-input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: #2F303A;
+    margin-right: 12px;
+    color: var(--primary-white-color);
+}
+
+
+.footer-form-field input::placeholder{
+    font-size: 16px;
+    line-height: 1.25;   
+    letter-spacing: 0.03em;
+}
+
+.footer-form-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--primary-white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-icon-send{
+    display: block;
+}
 
 /*PORTFOLIO*/
 
